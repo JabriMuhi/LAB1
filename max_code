@@ -6,12 +6,6 @@ then echo invalid input
 exit 
 fi
 
-#regexForNumber='^[-+]?[0-9]+$'
-#if ! [[ $1 =~ regexForCommands && $2 =~ regexForCommands && $3 =~ regexForCommands ]];
-#then echo invalid data type
-#exit
-#fi
-
 if [[ "$2" -ge "$max" ]]
 then max=$2
 fi 
